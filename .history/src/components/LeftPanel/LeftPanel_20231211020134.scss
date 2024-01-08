@@ -1,0 +1,40 @@
+.LeftPanel{
+    .container{
+        .user{
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            .profile{
+                width: 30px;
+                height:30px;
+                border-radius: 50%;
+                margin-right: 7px;
+                object-fit: cover;
+            }
+        }
+        .menu_1{
+            display: flex;
+            flex-direction: column;
+            margin:10px 20px;
+            border-bottom: 1px solid lightgray;
+            
+        .items{
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            gap:10px;
+            margin :10px 5px;
+            img{
+                width: 25px;
+                height:25px;
+                margin-right: 7px;
+                object-fit: cover;
+            }
+
+
+        }
+    }
+
+    }
+   
+}

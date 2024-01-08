@@ -1,0 +1,50 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 25px;
+    background-color: #D5DEEF;
+
+    .left{
+        display: flex;
+        flex-direction: row;
+        gap:25px;
+
+        
+    .link{
+        text-decoration: none;
+
+    }
+    .search{
+        display: flex;
+        justify-content:left;
+        border: 1px solid black;
+        border-radius: 20px;
+        width:240px;
+        padding-left: 7px;
+
+        input{
+            border: none;
+    background-color: #D5DEEF;
+
+
+        }
+        
+    }
+
+    }
+
+    .right{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+
+        .user{
+            .profile{
+                width: 20px;
+                height:20px;
+            }
+        }
+    }
+   
+}

@@ -1,0 +1,30 @@
+@import "../../style.scss";
+
+
+.comments{
+    @include themify($themes) {
+
+        .comment{
+            display: flex;
+            flex-direction: row;
+
+        }
+        .profilePic{
+
+        }
+        .info{
+            span{
+
+            }
+            p{
+
+            }
+        }
+        .time{
+
+        }
+
+
+    }
+
+}

@@ -1,0 +1,93 @@
+@import "../../style.scss";
+
+
+.profile{
+    @include themify($themes) {
+
+    display: flex;
+    flex-direction: column;
+    .images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        .coverPic{
+            width:100%;
+            height:300px;
+            object-fit: cover;
+        }
+        .profilePic{
+            width:180px;
+            height:180px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            left: 0;
+            right:0;
+            top:200px;
+            margin: auto;
+
+        }
+    }
+
+    .container{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height:180px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 20px;
+        background-color: themed("bg");
+        color: themed("textColor");
+        margin: 20px 5px;
+        padding: 20px;
+
+
+        .logos{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            margin: auto;
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width:40%;
+            span{
+                font-size: 20px;
+                font-weight: 600;
+
+            }
+            .location{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                span{
+                    font-size: 15px;
+                    font-weight: 300;
+                }
+
+            }
+            button{
+
+            }
+
+
+        }
+        .options{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap:10px;
+
+        }
+    }
+}
+}

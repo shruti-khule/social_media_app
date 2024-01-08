@@ -1,0 +1,40 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100vh;
+
+    .card{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width:75%;
+
+        .left{
+            width:50%;
+            text-align: left;
+            
+
+            h1{
+                text-align: center;
+            }
+
+            p{
+            }
+            button{
+                align-items: flex-start;
+            }
+        }
+        .right{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width:50%;
+            input{
+                width:50%
+            }
+        }
+    }
+}

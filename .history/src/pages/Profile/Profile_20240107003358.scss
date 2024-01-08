@@ -1,0 +1,21 @@
+.profile{
+    .images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .coverPic{
+            width:90%;
+            height:300px;
+            object-fit: cover;
+        }
+        .profilePic{
+            width:30%;
+            height:30%;
+            border-radius: 50%;
+            margin:-90px;
+
+        }
+    }
+}

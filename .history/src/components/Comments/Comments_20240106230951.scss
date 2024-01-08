@@ -1,0 +1,43 @@
+@import "../../style.scss";
+
+
+.comments{
+    @include themify($themes) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .comment{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .profilePic{
+            img{
+            width: 30px;
+            height:30px;
+            border-radius: 50%;
+            margin-right: 7px;
+            object-fit: cover;
+            }
+
+        }
+        .info{
+            width:70%;
+            span{
+
+            }
+            p{
+
+            }
+        }
+        .time{
+
+        }
+
+
+    }
+
+}

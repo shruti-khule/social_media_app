@@ -1,0 +1,38 @@
+.stories{
+    display: flex;
+    gap:10px;
+    height:250px;
+    margin:20px;
+    .story{
+        flex:1;
+        overflow: hidden;
+        border-radius: 10px;
+        width:180px;
+        height:260px;
+        position: relative;
+        
+
+        img{
+            width:100%;
+            height:100%;
+            object-fit: cover;
+
+
+        }
+        span{
+            bottom: 10px;
+            left: 10px;
+            position: absolute;
+            color: whitesmoke;
+    
+        }
+        button{
+            position:absolute;
+            color: white;
+            background-color: rgba(61, 149, 225, 0.81);
+            left: 10px;
+        }
+
+    }
+   
+}

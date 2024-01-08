@@ -1,0 +1,124 @@
+@import "../../style.scss";
+
+
+.posts{
+    @include themify($themes) {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        gap: 50px;
+
+    .post{
+        width:90%;
+        background-color: themed("bg");
+        color: themed("textColor");
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:20px 0px;
+
+
+        .user{
+            display: flex;
+            justify-content:space-between;
+            margin:10px;
+            width:85%;
+            align-items: center;
+
+
+            .userInfo{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                span{
+                    font-size: 12px;
+                    margin-left: 3px;
+
+                }
+                .profilePic{
+                    .profile{
+                        width: 50px;
+                        height:50px;
+                        border-radius: 50%;
+                        margin-right: 7px;
+                        object-fit: cover;
+                    }
+
+                }
+
+                .details{
+                    display: flex;
+                    flex-direction: column;
+
+                    .name{
+                        text-decoration: none;
+                        color: themed("textColor");
+                        span{
+                            font-size: 16px;
+                            font-weight: 500;
+                            margin-left: 4px;
+
+                        }
+                       
+                    }
+
+                    span{
+                        font-size: 13px;
+                        font-weight: 300;
+                        margin-left: 4px;
+        
+        
+                    }
+    
+
+                }
+
+               
+            }
+
+            
+         }
+         .postInfo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                width:85%;
+                height: 80%;
+                object-fit: cover;
+                margin-top: 20px;
+        
+            }
+            p{
+                width: 85%;
+        
+            }
+            
+         }
+
+         .buttons{
+            display: flex;
+            cursor: pointer;
+            width: 85%;
+            gap:15px;
+            .item{
+                display: flex;
+                align-items: center;
+                gap :8px;
+                margin-left: 3px;
+            }
+        }
+   
+
+    }
+}
+}

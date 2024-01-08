@@ -1,0 +1,21 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+
+    .card{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width:75%;
+
+        .left{
+            width:50%;
+        }
+        .right{
+            width:50%;
+        }
+    }
+}

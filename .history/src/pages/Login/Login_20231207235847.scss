@@ -1,0 +1,54 @@
+
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100vh;
+    background-color: #B1C9EF;
+
+    .card{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width:75%;
+        height:80%;
+
+        .left{
+            width:50%;
+            text-align: left;
+            background-image: linear-gradient(to bottom, rgba(128, 121, 227, 0.52), rgba(106, 147, 234, 0.6)),url("../../assets/ryoji-iwata-n31JPLu8_Pw-unsplash.jpg") ;
+            background-size: contain;
+            height:90%;
+            border-radius: 15px 0px 0px 15px;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+
+
+            h1{
+                text-align: center;
+            }
+
+            p{
+            }
+            button{
+                align-items: flex-start;
+            }
+        }
+        .right{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width:50%;
+            background-color: white;
+            height: 90%;
+            border-radius: 0px 15px 15px 0px;
+            input{
+                width:50%
+            }
+        }
+    }
+}

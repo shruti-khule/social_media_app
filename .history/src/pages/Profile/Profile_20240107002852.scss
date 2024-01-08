@@ -1,0 +1,13 @@
+.profile{
+    .images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .profilePic{
+            width:30%;
+            height:30%;
+
+
+        }
+    }
+}
