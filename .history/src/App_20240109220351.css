@@ -1,0 +1,19 @@
+
+.outlet{
+  width: 100%;
+}
+
+@media (max-width:480px){
+  .outlet{
+    width:50%;
+  }
+
+}
+
+
+@media (max-width:960px){
+  .outlet{
+    width:50%;
+  }
+}
+

@@ -1,0 +1,18 @@
+
+.outlet{
+  width: 100%;
+}
+
+@media screen and (max-width:480px){
+  .outlet{
+    width:100%;
+  }
+
+}
+
+@media (max-width:960px){
+  .outlet{
+    width:50%;
+  }
+}
+
