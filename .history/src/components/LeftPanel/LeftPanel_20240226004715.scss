@@ -1,0 +1,63 @@
+@import "../../style.scss";
+
+
+.LeftPanel{
+    @include themify($themes) {
+        width:20%;
+        position:sticky;
+        top:55px;
+        padding: 10px 0px 0px 10px;
+        height: calc(100vh - 55px);
+        overflow: scroll;
+        background-color: themed("bg");
+        color: themed("textColor");
+
+        @include mobile{
+            display: none;
+
+        }
+        .container{
+            .user{
+                display: flex;
+                align-items: center;
+                font-weight: 500;
+                .profile{
+                    width: 30px;
+                    height:30px;
+                    border-radius: 50%;
+                    margin-right: 7px;
+                    object-fit: cover;
+                }
+            }
+            .menu_1{
+                display: flex;
+                flex-direction: column;
+                margin:10px 15px;
+                border-bottom: 0.5px solid themed("border");
+
+                h5{
+                    margin: 5px;
+                    font-size: 12px;
+                    font-weight: 200;
+                }
+                
+            .items{
+                display: flex;
+                align-items: center;
+                font-weight: 500;
+                gap:10px;
+                margin :10px 5px;
+                img{
+                    width: 25px;
+                    height:25px;
+                    margin-right: 7px;
+                    object-fit: cover;
+                }
+
+
+            }
+        }
+
+        }
+    }
+}

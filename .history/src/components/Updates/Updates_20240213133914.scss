@@ -1,0 +1,49 @@
+.updates{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 6%;
+    left: 0;
+    margin: auto;
+    background-color: white;
+    width: 60%;
+    height: 40%;
+    z-index: 999;
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .option{
+        display: flex;
+        flex-direction: row ;
+        align-items: center;
+        margin: 0px 10px ;
+        gap: 20px;
+        .text{
+            width: 20%;
+        }
+        .inputs{
+            height: 50%;
+        }
+    }
+    button{
+        border:none;
+        border-radius: 5px;
+        height:25px;
+        width:65px;
+        cursor: pointer;
+        &:first-child{
+            float: right;
+            width: 25px;
+            background-color:#d63e31;
+            color: white;
+
+        }
+        &:last-child{
+            background-color:#2f71c6;
+            color: white;
+
+        }
+    }
+}
