@@ -1,6 +1,7 @@
 import express from "express";
 import userRouter from "./routes/users.js"
 import postsRouter from "./routes/posts.js"
+import storiesRouter from "./routes/stories.js"
 import likesRouter from "./routes/likes.js"
 import commentsRouter from "./routes/comments.js"
 import authRouter from "./routes/auth.js"
